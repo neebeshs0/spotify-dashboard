@@ -1,9 +1,12 @@
+import Clock from "./components/Clock"
+import Playlist from "./components/Playlist"
 import "./App.css"
 
 function App() {
   return (
     <>
-    <p>Hello World</p>
+    <Clock />
+    <Playlist />
     </>
   )
 }
